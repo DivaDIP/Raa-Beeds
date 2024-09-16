@@ -1,0 +1,85 @@
+.section-container {
+    margin-top: 50px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.header {
+    margin-bottom: 2rem;
+
+}
+
+.header p {
+    letter-spacing: 2px;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.header h1 {
+    font-family:  "Poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.testimonials-grid {
+    text-align: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.carde {
+    align-items: center;
+    padding: 2rem;
+    display: grid;
+    gap: 1rem;
+    background-color: #B38B98;
+    border: 5px;
+    box-shadow: 5px 5px 30px rgb(0, 0, 0, 1);
+    cursor: pointer;
+}
+
+.carde i {
+    font-size: 2.5rem;
+    color: #7781B1;
+
+}
+
+.carde p {
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.carde hr {
+    width: 400px;
+    margin: auto;
+    color: #7781B1;
+}
+
+.carde img {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 100%;
+    border: 1px solid var(--blue);
+}
+
+.carde .name {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #ABD5E5;
+    transition: .3s;
+}
+
+.carde .name:hover {
+    color: var(--dark-pur);
+}
